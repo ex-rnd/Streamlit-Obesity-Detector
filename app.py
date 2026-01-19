@@ -23,7 +23,7 @@ with st.container():
         st.image('./images/logo.png', width = 100)
         
     with title_col:
-        st.write('# ** :blue[OBESITY🫃🏻 DETECTOR🔍]**')
+        st.write('# **:blue[OBESITY🫃🏻 DETECTOR🔍]**')
         
     
     
