@@ -20,7 +20,7 @@ with st.container():
     image_col, title_col = st.columns([0.5, 2], vertical_alignment = 'center')
     
     with image_col:
-        st.image('./images/logo.png', width = 100)
+        st.image('.\images\logo.png', width = 100)
         
     with title_col:
         st.write('# **:blue[OBESITY🫃🏻 DETECTOR🔍]**')
