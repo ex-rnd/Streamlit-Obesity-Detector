@@ -23,12 +23,12 @@ with st.container():
         st.image('./images/logo.png', width = 100)
         
     with title_col:
-        st.write('# **:blue[OBESITY🫃🏻 DETECTOR🔍]**')
+        st.write('# **:blue[🫃🏻OBESITY DETECTOR🔍]**')
         
 # About the Project 
 with st.container():
     with st.expander('**:red[WHAT IS THIS ?]**', expanded=True):
-        st.write('**:rainbow[OBESITY DETECTOR]** is a deep learning model that detects the Obesity level of a person with respect to age, gender, height, weight, bmi and physical activity level of the person.')
+        st.write('**:rainbow[OBESITY DETECTOR]** is a deep learning model that detects the obesity level of a person with respect to age, gender, height, weight, bmi and physical activity level of the person.')
         
         
 # Input Output Container
