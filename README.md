@@ -102,10 +102,11 @@ streamlit run app.py
 
 ## 🤝 Contributing
 - Contributions are welcome!
-- Fork the repo
-- Create a feature branch (feature/new-ui)
-- Commit changes
-- Open a Pull Request
+ 
+1. Fork the repo
+2. Create a feature branch (feature/new-ui)
+3. Commit changes
+4. Open a Pull Request
 
 ---
 
