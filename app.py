@@ -139,12 +139,3 @@ with st.container():
     with linkedIn_col:
         st.link_button('**CONNECT ON LINKEDIN**', icon=':material/connect_without_contact:', url='https://www.linkedin.com/in/james-kilonzo-0aa2b1197/', help='LINKEDIN')
     
-
-
-
-
-
-
-
-
-
