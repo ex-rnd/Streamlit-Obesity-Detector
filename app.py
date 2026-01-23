@@ -133,11 +133,11 @@ with st.container():
 
     # Repository Link
     with repo_col:
-        st.link_button('**GITHUB REPOSITORY**', icon=':material/code_blocks:', url='https://github.com/madhavpani/Obesity_Detector', help='GITHUB REPOSITORY')
+        st.link_button('**GITHUB REPOSITORY**', icon=':material/code_blocks:', url='https://github.com/ex-rnd/Streamlit-Obesity-Detector', help='GITHUB REPOSITORY')
 
     # LinkedIn link
     with linkedIn_col:
-        st.link_button('**CONNECT ON LINKEDIN**', icon=':material/connect_without_contact:', url='https://www.linkedin.com/in/madhavpani', help='LINKEDIN')
+        st.link_button('**CONNECT ON LINKEDIN**', icon=':material/connect_without_contact:', url='https://www.linkedin.com/in/james-kilonzo-0aa2b1197/', help='LINKEDIN')
     
 
 
