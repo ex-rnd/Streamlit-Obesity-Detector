@@ -82,14 +82,15 @@ with st.container():
             bmi = np.float64(bmi)
 
     with pal_col:
-        pal = st.selectbox('**ACTIVITY LEVEL**', options=[1,2,3,4])        
-    
+        pal = st.selectbox('**ACTIVITY LEVEL**', options=[1,2,3,4])       
+            
+        
     with output_col:
         # heading
         st.write('### **:green[OBESE RESULT]**')
         result = st.empty()
 
-        if age and height and weight and bmi:
+        if age and height and weight and bmi and pal:
 
             sample = {
                 'Age': age,
@@ -105,7 +106,7 @@ with st.container():
                 }
 
             prediction = model.predict(raw_input)
-            
+
             output = prediction[0].argmax()
             
             if output == 0:
@@ -123,19 +124,33 @@ with st.container():
             else:
                 with result.container():
                     st.write('# 🫄🏻🙄❎')
-                    st.info('**OBESED ❎**')    
+                    st.info('**VERY OBESE ❎**')    
     
-# Container for Socials 
-    
-with st.container():
 
-    repo_col, linkedIn_col = st.columns([2, 3], vertical_alignment= 'top')
+# 📌 Sidebar Summary (fixed, non-scrollable)
+with st.sidebar:
+        st.header("📖 Model Info")
+        st.info(
+            """
+            **Deep Neural Network**
+            - Accuracy: ~85%
+            - Training: 1001 Patients
+            - Features: 6 Attributes
+            """
+        )
+        
+        st.header("Key Risk Factors")
+        st.markdown(
+            """
+			- Age  
+			- Gender  
+			- Height & Weight  
+			- BMI  
+			- Physical Activity Level  
+            """
+        )
+        
+        st.markdown("---")
+        st.caption("This is for educatonal purposes only")
+        st.caption("Not a substitute for professional medical advice")	
 
-    # Repository Link
-    with repo_col:
-        st.link_button('**GITHUB REPOSITORY**', icon=':material/code_blocks:', url='https://github.com/ex-rnd/Streamlit-Obesity-Detector', help='GITHUB REPOSITORY')
-
-    # LinkedIn link
-    with linkedIn_col:
-        st.link_button('**CONNECT ON LINKEDIN**', icon=':material/connect_without_contact:', url='https://www.linkedin.com/in/james-kilonzo-0aa2b1197/', help='LINKEDIN')
-    
