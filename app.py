@@ -139,7 +139,7 @@ with st.sidebar:
             """
         )
         
-        st.header("Key Risk Factors")
+        st.header("✒️ Model Inputs")
         st.markdown(
             """
 			- Age  
