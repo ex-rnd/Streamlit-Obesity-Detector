@@ -1,4 +1,4 @@
-# 🫃🏻 Obesity Detector 🔍
+# 🫃🏻🔍 Obesity Detector 🔍
 
 A **Streamlit web app** that predicts the obesity level of a person using a trained **Deep Learning model**.  
 This project leverages personal health metrics (age, gender, height, weight, BMI, and physical activity level) to estimate whether an individual is **Normal Weight, Underweight, Overweight, or Obese**, providing clear results and visual feedback.
