@@ -71,49 +71,46 @@ streamlit run app.py
 ---
 
 ## 📊 Usage
-Launch the app in your browser (default: http://localhost:8501).
-Enter personal details:
+- Launch the app in your browser (default: http://localhost:8501).
+- Enter personal details:
+```
 - Age, Gender, Height, Weight, BMI, Physical Activity Level
-Click Predict Obesity Level.
-View:
+```
+- Click Predict Obesity Level.
+- View:
+```
 - Prediction result (Normal / Underweight / Overweight / Obese)
 - Emoji + message feedback
 - Input summary
-
+```
 ---
 
 ## 🧠 Model Information
-Algorithm: Deep Learning (TensorFlow/Keras)
-Training Dataset: Obesity dataset (CSV)
-Features: Age, Gender, Height, Weight, BMI, Physical Activity Level
-Accuracy: Depends on dataset and training configuration
+- Algorithm: Deep Learning (TensorFlow/Keras)
+- Training Dataset: Obesity dataset (CSV)
+- Features: Age, Gender, Height, Weight, BMI, Physical Activity Level
+- Accuracy: Depends on dataset and training configuration
 
 ---
 
 ## ⚠️ Disclaimer
-This project is for educational purposes only.
-
-It is not a substitute for professional medical advice, diagnosis, or treatment.
-
-Always consult a qualified healthcare provider for medical concerns.
+- This project is for educational purposes only.
+- It is not a substitute for professional medical advice, diagnosis, or treatment.
+- Always consult a qualified healthcare provider for medical concerns.
 
 ---
 
 ## 🤝 Contributing
-Contributions are welcome!
-
-Fork the repo
-
-Create a feature branch (feature/new-ui)
-
-Commit changes
-
-Open a Pull Request
+- Contributions are welcome!
+- Fork the repo
+- Create a feature branch (feature/new-ui)
+- Commit changes
+- Open a Pull Request
 
 ---
 
 ## 📜 License
-This project is licensed under the MIT License – feel free to use and modify.
+- This project is licensed under the MIT License – feel free to use and modify.
 
 
 
