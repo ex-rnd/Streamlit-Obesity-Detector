@@ -5,6 +5,14 @@ This project leverages personal health metrics (age, gender, height, weight, BMI
 
 ---
 
+## ✳️ Visual Overview 
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/3ce950c1-851e-464b-943d-25f823a8069d" width="400" />
+</div>
+
+---
+
 ## ✨ Features
 - 📊 Interactive UI built with **Streamlit**
 - 🧠 Deep Learning model trained on **obesity dataset**
