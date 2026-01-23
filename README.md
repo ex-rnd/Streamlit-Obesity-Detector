@@ -40,3 +40,85 @@ obesity-detector/
 │── requirements.txt                     # Dependencies
 │── README.md                            # Project documentation
 ```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/obesity-detector.git
+cd obesity-detector
+```
+
+2. **Create a virtual environment**
+```
+python3 -m venv venv
+source venv/bin/activate   # Linux/macOS
+venv\Scripts\activate      # Windows
+```
+
+3. **Install dependencies**
+```
+pip install -r requirements.txt
+```
+
+4. **Run the app**
+```
+streamlit run app.py
+```
+
+---
+
+## 📊 Usage
+Launch the app in your browser (default: http://localhost:8501).
+Enter personal details:
+- Age, Gender, Height, Weight, BMI, Physical Activity Level
+Click Predict Obesity Level.
+View:
+- Prediction result (Normal / Underweight / Overweight / Obese)
+- Emoji + message feedback
+- Input summary
+
+---
+
+## 🧠 Model Information
+Algorithm: Deep Learning (TensorFlow/Keras)
+Training Dataset: Obesity dataset (CSV)
+Features: Age, Gender, Height, Weight, BMI, Physical Activity Level
+Accuracy: Depends on dataset and training configuration
+
+---
+
+## ⚠️ Disclaimer
+This project is for educational purposes only.
+
+It is not a substitute for professional medical advice, diagnosis, or treatment.
+
+Always consult a qualified healthcare provider for medical concerns.
+
+---
+
+## 🤝 Contributing
+Contributions are welcome!
+
+Fork the repo
+
+Create a feature branch (feature/new-ui)
+
+Commit changes
+
+Open a Pull Request
+
+---
+
+## 📜 License
+This project is licensed under the MIT License – feel free to use and modify.
+
+
+
+
+
+
+
+
