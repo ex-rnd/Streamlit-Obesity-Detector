@@ -28,3 +28,15 @@ This project leverages personal health metrics (age, gender, height, weight, BMI
 ---
 
 ## 📂 Project Structure
+```
+obesity-detector/
+│── model/
+│   └── model.keras                      # Trained DL model
+│── dataset/
+│   └── obesity_data.csv                # Dataset with features
+│── images/
+│   └── logo.png                         # App logo
+│── app.py                               # Streamlit app
+│── requirements.txt                     # Dependencies
+│── README.md                            # Project documentation
+```
